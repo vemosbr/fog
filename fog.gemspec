@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = "fog"
-  s.version           = "1.38.0"
+  s.version           = Fog::VERSION
   s.date              = "2016-03-28"
   s.rubyforge_project = "fog"
 
@@ -58,7 +58,7 @@ Gem::Specification.new do |s|
   s.add_dependency("fog-cloudatcost", "~> 0.1.0")
   s.add_dependency("fog-dynect", "~> 0.0.2")
   s.add_dependency("fog-ecloud", "~> 0.1")
-  s.add_dependency("fog-google", "<= 0.1.0")
+  s.add_dependency("fog-google", "~> 0.2.0")
   s.add_dependency("fog-local")
   s.add_dependency("fog-openstack")
   s.add_dependency("fog-powerdns", ">= 0.1.1")
